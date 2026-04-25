@@ -1,11 +1,6 @@
 #include "shell.h"
 
-/**
- * my_alias - handles the alias builtin, sets and prints
- * @shell: pointer to the shell structure
- *
- * Return: 0 on success or appropriate err
- */
+
 int my_alias(sh_data *shell)
 {
 	int i, j, check, ret = 0;
