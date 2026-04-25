@@ -2,7 +2,7 @@
 
 clear
 
-echo "Compiling . . ."
+echo "Compiling :..."
 
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *c -o hsh
 
